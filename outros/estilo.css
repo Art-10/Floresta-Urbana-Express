@@ -1,0 +1,41 @@
+/* código do arquivo estilo.css */
+
+
+header#menu {
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+section#corpo {
+    display: block;
+    width: 70%;
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 25%;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+footer#rodape {
+    clear: both;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#interface {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+body {
+    background-color: #808080;
+}
