@@ -2,3 +2,59 @@
 https://art-10.github.io/TesteEngComputacao/
 Projetinho pra hospedar site no GitPages;
 Repositório iniciado pelo Artur e aguardando contribuição dos demais;
+```html
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>HTML</title>
+  <link href='estilo.css' rel='stylesheet' />
+</head>
+<body>
+  <div id="interface">
+    <header id="menu">
+      <h1>Projetinho do Git Pages</h1>
+      <picture>
+           <img src="https://62ad35b797.nxcli.net/wp-content/uploads/2022/02/Logo600.png" alt="Fametro - Principal" data-no-lazy="1">
+        </picture>
+      <!-- Menu para navegar na página web-->
+        </article>
+    </section>
+    <aside id="lateral">
+      <a href="outros/calculo1.html" target="_blank"> Cálculo I </a></br>
+      <a href="outros/ciencias1" target="_blank"> Ciências do Meio Ambiente </a></br>
+      <a href="outros/fisica1" target="_blank"> Física I </a></br>
+      <a href="outros/quimica1" target="_blank"> Química I </a></br>
+  </aside>
+    </header>
+    <section id="corpo">
+      <article>
+        <header>
+          <h2>Artigo</h2>
+          <table border="10">
+            <caption>Exemplo de título</caption>
+            <thead>
+              <tr>
+                <th>Login</th>
+                <th>Email</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td>usuario1</td>
+                <td>usuario1@dominio.com</td>
+              </tr>
+              <tr>
+                <td>usuario2</td>
+                <td>usuario2@dominio.com</td>
+              </tr>
+          </tbody>
+          </table>
+        </header>
+        <p> <strong> Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <cite>Aldus PageMaker</cite> including versions of Lorem Ipsum. </p>
+    <footer id="rodape">
+      <p> Artur de Oliveira Rodrigues</p>
+    </footer>
+  </div>
+</body>
+</html>
