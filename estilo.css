@@ -29,11 +29,12 @@ footer#rodape {
 }
 
 #interface {
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-    background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
 }
+
 
 body {
     background-color: #808080;
