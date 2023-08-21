@@ -1,55 +1,71 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <title>HTML</title>
-  <link href='estilo.css' rel='stylesheet' />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Floresta Urbana Express - Plantas e Serviços de Jardinagem</title>
 </head>
 <body>
-  <div id="interface">
-    <header id="menu">
-      <h1>Projetinho do Git Pages</h1>
-      <picture>
-           <img src="https://62ad35b797.nxcli.net/wp-content/uploads/2022/02/Logo600.png" alt="Fametro - Principal" data-no-lazy="1">
-        </picture>
-      <!-- Menu para navegar na página web-->
-        </article>
-    </section>
-    <aside id="lateral">
-      <a href="outros/calculo1.html" target="_blank"> Cálculo I </a></br>
-      <a href="outros/ciencias1" target="_blank"> Ciências do Meio Ambiente </a></br>
-      <a href="outros/fisica1" target="_blank"> Física I </a></br>
-      <a href="outros/quimica1" target="_blank"> Química I </a></br>
-  </aside>
-    </header>
-    <section id="corpo">
-      <article>
-        <header>
-          <h2>Artigo</h2>
-          <table border="10">
-            <caption>Exemplo de título</caption>
-            <thead>
-              <tr>
-                <th>Login</th>
-                <th>Email</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                <td>usuario1</td>
-                <td>usuario1@dominio.com</td>
-              </tr>
-              <tr>
-                <td>usuario2</td>
-                <td>usuario2@dominio.com</td>
-              </tr>
-          </tbody>
-          </table>
-        </header>
-        <p> <strong> Lorem Ipsum </strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <cite>Aldus PageMaker</cite> including versions of Lorem Ipsum. </p>
-    <footer id="rodape">
-      <p> Artur de Oliveira Rodrigues</p>
-    </footer>
-  </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Floresta Urbana Express">
+      </div>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#plantas">Plantas</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Floresta Urbana Express</h1>
+      <p>Sua fonte para plantas de qualidade e serviços de paisagismo.</p>
+      <a href="#plantas" class="btn">Ver Plantas</a>
+    </div>
+  </section>
+  
+  <section id="plantas" class="plant-list">
+    <h2>Nossas Plantas</h2>
+    <div class="plant-card">
+      <img src="espada-sao-jorge.jpg" alt="Espada de São Jorge">
+      <h3>Espada de São Jorge</h3>
+      <p>Uma planta resistente e fácil de cuidar.</p>
+    </div>
+    <div class="plant-card">
+      <img src="zamioculca.jpg" alt="Zamioculca">
+      <h3>Zamioculca</h3>
+      <p>Uma planta ideal para interiores, adicionando um toque de elegância.</p>
+    </div>
+    <div class="plant-card">
+      <img src="cacto.jpg" alt="Cacto">
+      <h3>Cactos</h3>
+      <p>Suculentas que trazem personalidade ao seu ambiente.</p>
+    </div>
+  </section>
+  
+  <section id="servicos" class="services">
+    <h2>Nossos Serviços</h2>
+    <p>Oferecemos uma variedade de serviços de jardinagem e paisagismo para transformar seu espaço.</p>
+    <ul>
+      <li>Jardinagem em Ambientes Internos e Externos</li>
+      <li>Paisagismo Personalizado</li>
+      <li>Manutenção de Jardins</li>
+    </ul>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Entre em Contato</h2>
+    <p>Estamos prontos para ajudar a trazer a natureza para a sua vida. Entre em contato conosco!</p>
+    <a href="mailto:contato@florestaurbanaexpress.com" class="btn">Enviar Email</a>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Floresta Urbana Express. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
