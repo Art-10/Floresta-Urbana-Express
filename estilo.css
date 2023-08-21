@@ -1,32 +1,32 @@
-/* Reset some default styles for consistency */
+/* Redefine alguns estilos padrão para consistência */
 body, h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
 }
 
-/* Basic styling */
+/* Estilos básicos */
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-/* Header styles */
+/* Estilos do cabeçalho */
 header {
-  background-color: #f5f5f5;
+  background-color: #333;
+  color: #fff;
   padding: 1rem 0;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-  height: 60px;
+  height: 50px;
   width: auto;
-  margin-left: 1rem;
 }
 
 .menu {
   list-style: none;
   display: flex;
   align-items: center;
-  margin-right: 1rem;
 }
 
 .menu li {
@@ -35,11 +35,11 @@ header {
 
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: 500;
 }
 
-/* Hero section styles */
+/* Estilos da seção herói */
 .hero {
   background-image: url('hero-bg.jpg');
   background-size: cover;
@@ -71,31 +71,35 @@ header {
   background-color: #258c7e;
 }
 
-/* Plant list styles */
+/* Estilos da lista de plantas */
 .plant-list {
   padding: 4rem 0;
-  text-align: center;
 }
 
 .plant-card {
-  margin: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
 }
 
 .plant-card img {
-  max-width: 100%;
+  max-width: 100px;
   border-radius: 5px;
+  margin-right: 1.5rem;
 }
 
 .plant-card h3 {
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Services section styles */
+/* Estilos da seção de serviços */
 .services {
   background-color: #f5f5f5;
   padding: 4rem 0;
-  text-align: center;
 }
 
 .services h2 {
@@ -113,10 +117,11 @@ header {
   margin: 0.5rem 0;
 }
 
-/* Contact section styles */
+/* Estilos da seção de contato */
 .contact {
+  background-color: #333;
+  color: #fff;
   padding: 4rem 0;
-  text-align: center;
 }
 
 .contact h2 {
@@ -124,116 +129,32 @@ header {
   margin-bottom: 2rem;
 }
 
-/* Footer styles */
+/* Estilos do rodapé */
 footer {
-  background-color: #333;
+  background-color: #444;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-  
-  .logo img {
-    margin-left: 0.5rem;
-  }
-  
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero p {
-    font-size: 1rem;
-  }
-  
-  .btn {
-    padding: 0.3rem 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .plant-card {
-    margin: 1rem;
-  }
-  
-  .plant-card h3 {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-  }
-  
-  .services h2 {
-    font-size: 1.5rem;
-  }
-  
-  .services li {
-    font-size: 1rem;
-  }
-
 /* Estilos responsivos */
 @media (max-width: 768px) {
-  /* Ajuste do cabeçalho para dispositivos menores */
-  .logo img {
-    height: 40px;
-    width: auto;
-    margin: 0.5rem;
-  }
-
   .menu {
-    display: none;
     flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    background-color: #f5f5f5;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    text-align: center;
   }
 
   .menu li {
-    margin: 1rem;
+    margin: 0.5rem 0;
   }
 
-  /* Estilos da seção herói para dispositivos menores */
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  /* Ajuste dos cards de plantas para dispositivos menores */
   .plant-card {
-    margin: 1rem 0;
-    padding: 1rem;
+    flex-direction: column;
     text-align: center;
   }
 
   .plant-card img {
-    max-width: 80%;
     margin: 0 auto;
-  }
-
-  /* Ajuste dos serviços para dispositivos menores */
-  .services h2 {
-    font-size: 1.5rem;
-  }
-
-  .services li {
-    font-size: 1rem;
-  }
-
-  /* Ajuste da seção de contato para dispositivos menores */
-  .contact h2 {
-    font-size: 1.5rem;
-  }
-}
-
-  
-  .contact h2 {
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
